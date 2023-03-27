@@ -10,6 +10,7 @@ public class Player{
         this.playerId=playerId;
         this.playerName=playerName;
         this.jerseyNumber=jerseyNumber;
+        this.role=role;
     }
 
     public int getPlayerId(){

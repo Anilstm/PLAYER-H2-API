@@ -48,7 +48,7 @@ public class PlayerH2Service implements PlayerRepository{
         if(player.getPlayerName() != null){
             db.update("update team set playerName = ? where playerId = ?", player.getPlayerName(), playerId);
         }
-        if(player.getJerseyNumber() != null){
+        if(player.getJerseyNumber() != 0){
             db.update("update team set jerseyNumber = ? where playerId = ?", player.getJerseyNumber(), playerId);
         }
         if(player.getRole() != null){

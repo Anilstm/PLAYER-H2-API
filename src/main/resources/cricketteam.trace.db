@@ -274,3 +274,6 @@ delete * from team where playerId=? [42001-214]
 2023-03-26 18:30:20 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* from team where playerId=?"; expected "identifier"; SQL statement:
 delete * from team where playerId=? [42001-214]
+2023-03-27 07:38:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* from team where playerId=?"; expected "identifier"; SQL statement:
+delete * from team where playerId=? [42001-214]
