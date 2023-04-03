@@ -40,7 +40,7 @@ public class PlayerH2Service implements PlayerRepository{
     }
 
     public void deletePlayer(int playerId){
-        db.update("delete * from team where playerId=?",playerId);
+        db.update("delete  from team where playerId=?",playerId);
     }
 
     public Player updatePlayer(int playerId, Player player) {
