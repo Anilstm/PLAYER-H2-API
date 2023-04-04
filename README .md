@@ -1,12 +1,11 @@
-Given five files,
+Contains five files,
 
 - `PlayerController.java`
 - `PlayerRepository.java`
 - `PlayerH2Service.java`
 - `PlayerRowMapper.java`
 - `Player.java`
-
-And also given a database file `cricketteam` which contains `TEAM` table.
+Contains a database file `cricketteam` which contains `TEAM` table.
 
 #### TEAM Table
 
@@ -17,14 +16,10 @@ And also given a database file `cricketteam` which contains `TEAM` table.
 | jerseyNumber | INTEGER |
 |     role     |  TEXT   |
 
-<SingleLineNote>
 
-Use only TEAM as a table name in your code while writing queries.
-</SingleLineNote>
+### Completed Instructions
 
-### Completion Instructions
-
-- `Player.java`: `Player` class should contain the following attributes.
+- `Player.java`: `Player` class contains the following attributes.
 
     |  Attribute   |  Type  |
     | :----------: | :----: |
@@ -33,12 +28,12 @@ Use only TEAM as a table name in your code while writing queries.
     | jerseyNumber |  int   |
     |     role     | String |
 
-- `PlayerRepository.java`: Create an `interface` containing required methods.
-- `PlayerService.java`: Update the service class with logic for managing player data.
-- `PlayerController.java`: Create the controller class to handle HTTP requests.
-- `PlayerRowMapper.java`: Create a class which implements the `Rowmapper Interface`.
+- `PlayerRepository.java`: Creates an `interface` containing required methods.
+- `PlayerService.java`: Updates the service class with logic for managing player data.
+- `PlayerController.java`: Creates the controller class to handle HTTP requests.
+- `PlayerRowMapper.java`: Creates a class which implements the `Rowmapper Interface`.
 
-Implement the following APIs.
+Implemented the following APIs.
 
 ### API 1
 
@@ -158,7 +153,3 @@ Updates the details of a player in the team based on the `playerId`.  Also, retu
 #### Description:
 
 Deletes a player from the team  based on the `playerId`. 
-
-
-**Do not modify the code in `PlayerApplication.java`**
-
